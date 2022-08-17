@@ -6,7 +6,7 @@ import { Transition } from "./transition";
 export default function Home() {
   const history = useHistory();
   return (
-    <div style={{ width: '100vw', height: '100vh', background: "#39c5bb" }}>
+    <div style={{ width: '100vw', height: '100vh' }}>
       {/* <button
         onClick={() => {
           history.push("/detail");
